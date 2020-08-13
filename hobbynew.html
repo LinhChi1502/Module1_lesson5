@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .bg {
+            margin: auto;
+            background-color: aliceblue;
+            width:700px;
+            padding:10px;
+        }
+        form {
+            margin:auto;
+            width: 630px;
+            background-color: white;
+            padding: 10px 0;
+        }
+        span {
+            color: deepskyblue;
+        }
+        td label {
+            color: red;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="bg">
+<form action="https://www.google.com/search">
+<h1 style="background-color: orangered" align="center">SỞ THÍCH CỦA BẠN</h1>
+<table style="padding: 5px">
+    <tr>
+        <td width="80px"><span>Họ và tên</span></td>
+        <td colspan="3"><input type="text" name="hoten"></td>
+
+    </tr>
+    <tr>
+        <td><span>Email</span></td>
+        <td colspan="3"><input type="email"></td>
+    </tr>
+    <tr>
+        <td><span>Sở thích</span></td>
+        <td width="30%"><label><input type="checkbox" name="thethao">Thể thao</label></td>
+        <td width="30%"><label><input type="checkbox" name="amnhac">Âm nhạc</label></td>
+        <td><label><input type="checkbox" name="docsach">Đọc sách</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label><input type="checkbox" name="luotweb">Lướt web</label></td>
+        <td><label><input type="checkbox" name="choigame">Chơi game</label></td>
+        <td><label><input type="checkbox" name="dienanh">Điện ảnh</label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><label><input type="checkbox" name="dulich">Du lịch</label></td>
+
+    </tr>
+    <tr>
+        <td colspan="2" align="right"><input type="submit" value="Gửi thông tin"></td>
+        <td colspan="2" align="left"><input type="reset" value="Nhập lại"></td>
+    </tr>
+</table>
+</form>
+</div>
+</body>
+</html>
